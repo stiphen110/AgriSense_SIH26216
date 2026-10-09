@@ -1,0 +1,67 @@
+{
+    "hardware_node": {
+        "node_id": "AGRI-EDGE-001",
+        "status": "online",
+        "battery_level": 82,
+        "last_sync": "2026-09-27T10:05:00Z",
+        "edge_model_version": "YOLOv8-Nano-Quantized"
+    },
+    "current_readings": {
+        "soil_moisture_percent": 34,
+        "ambient_temperature_c": 36.5,
+        "humidity_percent": 28,
+        "soil_temperature_c": 29.0
+    },
+    "smart_irrigation": {
+        "water_stress_index": 0.78,
+        "irrigation_status": "CRITICAL",
+        "recommendation": "Irrigate Now"
+    },
+    "environmental_risks": {
+        "heat_stress_warning": true,
+        "drought_risk": true,
+        "flood_risk": false,
+        "disease_outbreak_risk": false
+    },
+    "edge_vision_alerts": [
+        {
+            "id": "alert-773",
+            "type": "pest_activity",
+            "confidence": 0.88,
+            "description": "Localized aphid cluster detected on node camera",
+            "action_required": true
+        }
+    ],
+    "hourly_history": [
+        {
+            "time": "05:00",
+            "soil_moisture": 45,
+            "temperature": 24
+        },
+        {
+            "time": "06:00",
+            "soil_moisture": 44,
+            "temperature": 25
+        },
+        {
+            "time": "07:00",
+            "soil_moisture": 42,
+            "temperature": 28
+        },
+        {
+            "time": "08:00",
+            "soil_moisture": 39,
+            "temperature": 32
+        },
+        {
+            "time": "09:00",
+            "soil_moisture": 37,
+            "temperature": 35
+        },
+        {
+            "time": "10:00",
+            "soil_moisture": 34,
+            "temperature": 36.5
+        }
+    ]
+}

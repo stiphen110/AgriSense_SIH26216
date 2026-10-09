@@ -1,0 +1,10 @@
+{
+  "description": "Create fully functional websites with seamless navigation and connectivity, designed for users seeking an intuitive online presence without design overlaps.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

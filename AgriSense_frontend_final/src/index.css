@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display:ital@0;1&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --agri-sage-dark: #1e3a2b;
+  --agri-sage: #2e5a44;
+  --agri-sage-light: #417357;
+  --agri-sage-subtle: #e8f0eb;
+  --agri-cream: #f7f9f5;
+  --agri-cream-card: #ffffff;
+  --agri-earth-border: #d8e0d5;
+  --agri-earth-text: #1c2b1e;
+  --agri-muted-text: #526356;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background-color: var(--agri-cream);
+  color: var(--agri-earth-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Authentic Agricultural UI System Utilities */
+.bg-agri-cream {
+  background-color: #f7f9f5;
+}
+
+.bg-agri-sage {
+  background-color: #2e5a44;
+}
+
+.bg-agri-sage-dark {
+  background-color: #1e3a2b;
+}
+
+.bg-agri-sage-subtle {
+  background-color: #e8f0eb;
+}
+
+.text-agri-sage {
+  color: #2e5a44;
+}
+
+.text-agri-earth {
+  color: #1c2b1e;
+}
+
+.border-agri-earth {
+  border-color: #d8e0d5;
+}
+
+/* Card System & Soft Dispersed Shadows */
+.card-agri {
+  background-color: #ffffff;
+  border: 1px solid #d8e0d5;
+  border-radius: 0.875rem;
+  box-shadow: 0 10px 25px -5px rgba(30, 58, 43, 0.05), 0 8px 10px -6px rgba(30, 58, 43, 0.03);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-agri:hover {
+  box-shadow: 0 14px 28px -4px rgba(30, 58, 43, 0.08), 0 10px 12px -6px rgba(30, 58, 43, 0.04);
+}
+
+/* Bento Box & Tactile Micro-Interactions */
+.bento-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 1rem;
+  box-shadow: 0 4px 25px -4px rgba(16, 185, 129, 0.06);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.bento-card:hover {
+  border-color: #10b981;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px -4px rgba(16, 185, 129, 0.12);
+}
+
+.interactive-hover {
+  transition: all 0.2s ease-in-out;
+}
+
+.interactive-hover:hover {
+  transform: translateY(-2px);
+  border-color: #047857;
+}
+
+/* Accessible Agricultural Buttons */
+.btn-agri-primary {
+  background-color: #2e5a44;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.75rem;
+  transition: all 0.15s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  box-shadow: 0 2px 4px rgba(30, 58, 43, 0.12);
+}
+
+.btn-agri-primary:hover {
+  background-color: #1e3a2b;
+  box-shadow: 0 4px 8px rgba(30, 58, 43, 0.18);
+}
+
+.btn-agri-secondary {
+  background-color: #ffffff;
+  color: #2e5a44;
+  border: 1px solid #d8e0d5;
+  font-weight: 600;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.75rem;
+  transition: all 0.15s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.btn-agri-secondary:hover {
+  background-color: #e8f0eb;
+  border-color: #2e5a44;
+}
+
+/* Polished Form Inputs */
+.input-agri {
+  width: 100%;
+  border: 1px solid #d8e0d5;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.875rem;
+  color: #1c2b1e;
+  background-color: #ffffff;
+  transition: all 0.15s ease-in-out;
+}
+
+.input-agri:focus {
+  outline: none;
+  border-color: #2e5a44;
+  box-shadow: 0 0 0 3px rgba(46, 90, 68, 0.15);
+}
+
+@keyframes scan-sweep {
+  0% { top: 0%; opacity: 0.8; }
+  100% { top: 100%; opacity: 0; }
+}
+
+@keyframes progress-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scale-in {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.scan-line {
+  animation: scan-sweep 2s ease-in-out infinite;
+}
+
+.progress-active {
+  animation: progress-pulse 1.2s ease-in-out infinite;
+}
+
+.fade-in {
+  animation: fade-in 0.25s ease-out forwards;
+}
+
+.scale-in {
+  animation: scale-in 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #c2cebf;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9ab096;
+}
