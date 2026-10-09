@@ -1,0 +1,557 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Complete disease-class mapping skeleton for officer-reviewed dosage recommendations",
+  "model_class_count": 38,
+  "safety_status": "Reference mapping only. No medicine or dosage values are supplied until verified against current official recommendations and product labels.",
+  "workflow": "AI suggests diagnosis; extension officer verifies diagnosis, selects treatment, enters dosage, and approves guidance before it reaches the farmer.",
+  "source_class_reference": "PlantVillage 38-class label set",
+  "source_reference_url": "https://github.com/spMohanty/PlantVillage-Dataset",
+  "advisories": {
+    "Apple___Apple_scab": {
+      "crop": "Apple",
+      "disease": "Apple scab",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Apple___Black_rot": {
+      "crop": "Apple",
+      "disease": "Black rot",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Apple___Cedar_apple_rust": {
+      "crop": "Apple",
+      "disease": "Cedar apple rust",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Apple___healthy": {
+      "crop": "Apple",
+      "disease": "Healthy",
+      "is_healthy": true,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Blueberry___healthy": {
+      "crop": "Blueberry",
+      "disease": "Healthy",
+      "is_healthy": true,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Cherry_(including_sour)___Powdery_mildew": {
+      "crop": "Cherry",
+      "disease": "Powdery mildew",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Cherry_(including_sour)___healthy": {
+      "crop": "Cherry",
+      "disease": "Healthy",
+      "is_healthy": true,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+      "crop": "Corn",
+      "disease": "Cercospora leaf spot Gray leaf spot",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Corn_(maize)___Common_rust_": {
+      "crop": "Corn",
+      "disease": "Common rust",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Corn_(maize)___Northern_Leaf_Blight": {
+      "crop": "Corn",
+      "disease": "Northern Leaf Blight",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Corn_(maize)___healthy": {
+      "crop": "Corn",
+      "disease": "Healthy",
+      "is_healthy": true,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Grape___Black_rot": {
+      "crop": "Grape",
+      "disease": "Black rot",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Grape___Esca_(Black_Measles)": {
+      "crop": "Grape",
+      "disease": "Esca (Black Measles)",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+      "crop": "Grape",
+      "disease": "Leaf blight (Isariopsis Leaf Spot)",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Grape___healthy": {
+      "crop": "Grape",
+      "disease": "Healthy",
+      "is_healthy": true,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Orange___Haunglongbing_(Citrus_greening)": {
+      "crop": "Orange",
+      "disease": "Haunglongbing (Citrus greening)",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Peach___Bacterial_spot": {
+      "crop": "Peach",
+      "disease": "Bacterial spot",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Peach___healthy": {
+      "crop": "Peach",
+      "disease": "Healthy",
+      "is_healthy": true,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Pepper,_bell___Bacterial_spot": {
+      "crop": "Pepper",
+      "disease": "Bacterial spot",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Pepper,_bell___healthy": {
+      "crop": "Pepper",
+      "disease": "Healthy",
+      "is_healthy": true,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Potato___Early_blight": {
+      "crop": "Potato",
+      "disease": "Early blight",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [
+        {
+          "medicine": "Difenoconazole 25% EC",
+          "source": "ICAR Kharif Agro-Advisory for Farmers 2025",
+          "source_url": "https://icar.gov.in/sites/default/files/Circulars/ICAR%20En-Kharif%20Agro-Advisories%20for%20Farmers%202025.pdf"
+        },
+        {
+          "medicine": "Hexaconazole 5% EC",
+          "source": "ICAR Kharif Agro-Advisory for Farmers 2025",
+          "source_url": "https://icar.gov.in/sites/default/files/Circulars/ICAR%20En-Kharif%20Agro-Advisories%20for%20Farmers%202025.pdf"
+        }
+      ],
+      "source_status": "verified_source_recommendations_added"
+    },
+    "Potato___Late_blight": {
+      "crop": "Potato",
+      "disease": "Late blight",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [
+        {
+          "medicine": "Mancozeb",
+          "source": "ICAR Kharif Agro-Advisory for Farmers 2025",
+          "source_url": "https://icar.gov.in/sites/default/files/Circulars/ICAR%20En-Kharif%20Agro-Advisories%20for%20Farmers%202025.pdf"
+        },
+        {
+          "medicine": "Chlorothalonil",
+          "source": "ICAR Kharif Agro-Advisory for Farmers 2025",
+          "source_url": "https://icar.gov.in/sites/default/files/Circulars/ICAR%20En-Kharif%20Agro-Advisories%20for%20Farmers%202025.pdf"
+        }
+      ],
+      "source_status": "verified_source_recommendations_added"
+    },
+    "Potato___healthy": {
+      "crop": "Potato",
+      "disease": "Healthy",
+      "is_healthy": true,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Raspberry___healthy": {
+      "crop": "Raspberry",
+      "disease": "Healthy",
+      "is_healthy": true,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Soybean___healthy": {
+      "crop": "Soybean",
+      "disease": "Healthy",
+      "is_healthy": true,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Squash___Powdery_mildew": {
+      "crop": "Squash",
+      "disease": "Powdery mildew",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Strawberry___Leaf_scorch": {
+      "crop": "Strawberry",
+      "disease": "Leaf scorch",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Strawberry___healthy": {
+      "crop": "Strawberry",
+      "disease": "Healthy",
+      "is_healthy": true,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Tomato___Bacterial_spot": {
+      "crop": "Tomato",
+      "disease": "Bacterial spot",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "source_supported_recommendations_added",
+      "officer_approval_required": true,
+      "medicine_recommendations": [
+        {
+          "medicine": "Copper oxychloride 50% WP",
+          "source": "ICAR–Indian Institute of Vegetable Research (IIVR), Annual Report 2017–18",
+          "source_url": "https://icariivr.org.in/wp-content/uploads/2025/11/Annual-Report-2017-2018English.pdf",
+          "source_note": "ICAR-IIVR reported field evaluation of Copper oxychloride 50 WP among treatments against bacterial diseases of tomato; bacterial spot (Xanthomonas) was included."
+        },
+        {
+          "medicine": "Copper hydroxide 53.8 DF",
+          "source": "ICAR–Indian Institute of Vegetable Research (IIVR), Annual Report 2017–18",
+          "source_url": "https://icariivr.org.in/wp-content/uploads/2025/11/Annual-Report-2017-2018English.pdf",
+          "source_note": "ICAR-IIVR reported field evaluation of Copper hydroxide 53.8 DF among treatments against bacterial diseases of tomato; bacterial spot (Xanthomonas) was included."
+        }
+      ],
+      "source_status": "verified_source_recommendations_added",
+      "advisory": {
+        "summary": "Tomato bacterial spot is a bacterial disease. Management should focus on sanitation, reducing leaf wetness and rain-splash spread, and using only officer-approved, label-claimed products.",
+        "actions": [
+          "Use disease-free seed and healthy transplants.",
+          "Remove and dispose of severely infected plant material and crop debris; do not leave infected debris in the field.",
+          "Avoid overhead irrigation and minimize water splash between plants.",
+          "Avoid handling or working through the crop when foliage is wet to reduce spread.",
+          "Maintain field sanitation and monitor the crop regularly for new lesions.",
+          "Use chemical treatment only after diagnosis is confirmed and the extension officer verifies the product label and crop-specific recommendation."
+        ],
+        "warning": "Copper products can cause phytotoxicity on some tomato varieties. Do not apply a product, tank mix, frequency, or dosage unless it is approved for tomato on the current product label and confirmed by the extension officer.",
+        "officer_approval_required": true,
+        "source": "ICAR–Indian Institute of Vegetable Research (IIVR), Annual Report 2017–18; ICAR IPM guidance",
+        "source_url": "https://icariivr.org.in/wp-content/uploads/2025/11/Annual-Report-2017-2018English.pdf",
+        "ipm_source_url": "https://www.icar.gov.in/en/integrated-pest-management-sustainable-approach-responsible-pest-management"
+      }
+    },
+    "Tomato___Early_blight": {
+      "crop": "Tomato",
+      "disease": "Early blight",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [
+        {
+          "medicine": "Copper oxychloride",
+          "source": "ICAR Kharif Agro-Advisory for Farmers 2025",
+          "source_url": "https://icar.gov.in/sites/default/files/Circulars/ICAR%20En-Kharif%20Agro-Advisories%20for%20Farmers%202025.pdf"
+        },
+        {
+          "medicine": "Carbendazim 12% + Mancozeb 63% WP",
+          "source": "ICAR Kharif Agro-Advisory for Farmers 2025",
+          "source_url": "https://icar.gov.in/sites/default/files/Circulars/ICAR%20En-Kharif%20Agro-Advisories%20for%20Farmers%202025.pdf"
+        },
+        {
+          "medicine": "Mancozeb",
+          "source": "ICAR Kharif Agro-Advisory for Farmers 2025",
+          "source_url": "https://icar.gov.in/sites/default/files/Circulars/ICAR%20En-Kharif%20Agro-Advisories%20for%20Farmers%202025.pdf"
+        },
+        {
+          "medicine": "Chlorothalonil",
+          "source": "ICAR Kharif Agro-Advisory for Farmers 2025",
+          "source_url": "https://icar.gov.in/sites/default/files/Circulars/ICAR%20En-Kharif%20Agro-Advisories%20for%20Farmers%202025.pdf"
+        }
+      ],
+      "source_status": "verified_source_recommendations_added"
+    },
+    "Tomato___Late_blight": {
+      "crop": "Tomato",
+      "disease": "Late blight",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [
+        {
+          "medicine": "Cymoxanil + Mancozeb",
+          "source": "ICAR KVK Dehradun tomato technology intervention",
+          "source_url": "https://www.icar.gov.in/en/node/4685"
+        },
+        {
+          "medicine": "Pyraclostrobin + Metiram",
+          "source": "ICAR KVK Dehradun tomato technology intervention",
+          "source_url": "https://www.icar.gov.in/en/node/4685"
+        }
+      ],
+      "source_status": "verified_source_recommendations_added"
+    },
+    "Tomato___Leaf_Mold": {
+      "crop": "Tomato",
+      "disease": "Leaf Mold",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "crop": "Tomato",
+      "disease": "Septoria leaf spot",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+      "crop": "Tomato",
+      "disease": "Spider mites Two-spotted spider mite",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Tomato___Target_Spot": {
+      "crop": "Tomato",
+      "disease": "Target Spot",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "crop": "Tomato",
+      "disease": "Tomato Yellow Leaf Curl Virus",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "crop": "Tomato",
+      "disease": "Tomato mosaic virus",
+      "is_healthy": false,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    },
+    "Tomato___healthy": {
+      "crop": "Tomato",
+      "disease": "Healthy",
+      "is_healthy": true,
+      "dosage": null,
+      "application_method": null,
+      "source": null,
+      "verification_status": "not_verified",
+      "officer_approval_required": true,
+      "medicine_recommendations": [],
+      "source_status": "not_added_yet"
+    }
+  },
+  "_README": {
+    "purpose": "AgriSense disease medicine recommendation reference.",
+    "current_coverage": "Currently, medicine recommendations are added for selected potato and tomato diseases where supporting official sources have been identified. Tomato bacterial spot now includes source-backed copper-based options and an IPM advisory.",
+    "future_scope": "Other crop/disease classes will be added after source verification.",
+    "important": "No dosage is stored. Recommendations are informational and require extension-officer verification before farmer delivery.",
+    "source_note": "Each populated recommendation contains its source and URL."
+  }
+}

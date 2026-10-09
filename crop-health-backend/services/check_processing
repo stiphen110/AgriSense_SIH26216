@@ -1,0 +1,38 @@
+from transformers import ViTImageProcessor
+
+
+BASE_MODEL = "google/vit-base-patch16-224"
+
+
+processor = ViTImageProcessor.from_pretrained(BASE_MODEL)
+
+
+print("\n==========================================")
+print("IMAGE PROCESSOR CONFIG")
+print("==========================================")
+
+print("Size:")
+print(processor.size)
+
+print("\nImage mean:")
+print(processor.image_mean)
+
+print("\nImage std:")
+print(processor.image_std)
+
+print("\nDo resize:")
+print(processor.do_resize)
+
+print("\nDo rescale:")
+print(processor.do_rescale)
+
+print("\nRescale factor:")
+print(processor.rescale_factor)
+
+print("\nDo normalize:")
+print(processor.do_normalize)
+
+print("\nResample:")
+print(processor.resample)
+
+print("\n==========================================")

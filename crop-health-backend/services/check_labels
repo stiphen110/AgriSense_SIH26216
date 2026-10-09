@@ -1,0 +1,63 @@
+import torch
+from huggingface_hub import hf_hub_download
+
+
+MODEL_REPO = "moudook/pdd"
+MODEL_FILE = "phase1/hf_google_vit_base/model.pt"
+
+
+print("Downloading/loading checkpoint...")
+
+model_path = hf_hub_download(
+    repo_id=MODEL_REPO,
+    filename=MODEL_FILE
+)
+
+checkpoint = torch.load(
+    model_path,
+    map_location="cpu"
+)
+
+print("\n==========================================")
+print("CHECKPOINT CONTENTS")
+print("==========================================")
+
+print("Checkpoint keys:")
+print(checkpoint.keys())
+
+
+# ------------------------------------------------------------
+# Inspect every non-model entry
+# ------------------------------------------------------------
+
+for key, value in checkpoint.items():
+
+    if key != "model_state_dict":
+
+        print()
+        print(f"{key}:")
+        print(value)
+
+
+# ------------------------------------------------------------
+# Inspect classifier dimensions
+# ------------------------------------------------------------
+
+state_dict = checkpoint["model_state_dict"]
+
+print("\n==========================================")
+print("CLASSIFIER")
+print("==========================================")
+
+for key, value in state_dict.items():
+
+    if "classifier.weight" in key:
+        print("Classifier weight:", key)
+        print("Shape:", tuple(value.shape))
+
+    if "classifier.bias" in key:
+        print("Classifier bias:", key)
+        print("Shape:", tuple(value.shape))
+
+
+print("\n==========================================")

@@ -1,0 +1,1119 @@
+{
+    "schema_version": "1.0",
+    "model_class_count": 102,
+    "purpose": "Complete pest-class catalog prepared from the deployed YOLO model output",
+    "required_verification_sources": [
+        {
+            "name": "ICAR",
+            "url": "https://icar.org.in/en/node/10817"
+        },
+        {
+            "name": "NIPHM",
+            "url": "https://niphm.gov.in/"
+        },
+        {
+            "name": "PPQS",
+            "url": "https://ppqs.gov.in/"
+        }
+    ],
+    "classes": [
+        {
+            "class_id": 0,
+            "model_label": "rice leaf roller",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 1,
+            "model_label": "rice leaf caterpillar",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 2,
+            "model_label": "paddy stem maggot",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 3,
+            "model_label": "asiatic rice borer",
+            "crop": "Rice",
+            "medicine_recommendations": [
+                {
+                    "medicine": "Cartap hydrochloride",
+                    "source": "NIPHM Integrated Pest Management Package for Rice",
+                    "source_url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf"
+                }
+            ],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "verified_source_recommendations_added"
+        },
+        {
+            "class_id": 4,
+            "model_label": "yellow rice borer",
+            "crop": "Rice",
+            "medicine_recommendations": [
+                {
+                    "medicine": "Cartap hydrochloride",
+                    "source": "NIPHM Integrated Pest Management Package for Rice",
+                    "source_url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf"
+                }
+            ],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "verified_source_recommendations_added"
+        },
+        {
+            "class_id": 5,
+            "model_label": "rice gall midge",
+            "crop": "Rice",
+            "medicine_recommendations": [
+                {
+                    "medicine": "Carbofuran",
+                    "source": "NIPHM Integrated Pest Management Package for Rice",
+                    "source_url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf"
+                },
+                {
+                    "medicine": "Carbosulfan",
+                    "source": "NIPHM Integrated Pest Management Package for Rice",
+                    "source_url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf"
+                },
+                {
+                    "medicine": "Fipronil",
+                    "source": "NIPHM Integrated Pest Management Package for Rice",
+                    "source_url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf"
+                }
+            ],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "verified_source_recommendations_added"
+        },
+        {
+            "class_id": 6,
+            "model_label": "Rice Stemfly",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 7,
+            "model_label": "brown plant hopper",
+            "crop": "Rice",
+            "medicine_recommendations": [
+                {
+                    "medicine": "Imidacloprid",
+                    "source": "NIPHM Integrated Pest Management Package for Rice",
+                    "source_url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf"
+                },
+                {
+                    "medicine": "Ethofenoprox",
+                    "source": "NIPHM Integrated Pest Management Package for Rice",
+                    "source_url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf"
+                },
+                {
+                    "medicine": "Acephate",
+                    "source": "NIPHM Integrated Pest Management Package for Rice",
+                    "source_url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf"
+                },
+                {
+                    "medicine": "Buprofezin",
+                    "source": "NIPHM Integrated Pest Management Package for Rice",
+                    "source_url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf"
+                }
+            ],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "verified_source_recommendations_added"
+        },
+        {
+            "class_id": 8,
+            "model_label": "white backed plant hopper",
+            "crop": "Rice",
+            "medicine_recommendations": [
+                {
+                    "medicine": "Imidacloprid",
+                    "source": "NIPHM Integrated Pest Management Package for Rice",
+                    "source_url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf"
+                },
+                {
+                    "medicine": "Ethofenoprox",
+                    "source": "NIPHM Integrated Pest Management Package for Rice",
+                    "source_url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf"
+                },
+                {
+                    "medicine": "Acephate",
+                    "source": "NIPHM Integrated Pest Management Package for Rice",
+                    "source_url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf"
+                },
+                {
+                    "medicine": "Buprofezin",
+                    "source": "NIPHM Integrated Pest Management Package for Rice",
+                    "source_url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf"
+                }
+            ],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "verified_source_recommendations_added"
+        },
+        {
+            "class_id": 9,
+            "model_label": "small brown plant hopper",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 10,
+            "model_label": "rice water weevil",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 11,
+            "model_label": "rice leafhopper",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 12,
+            "model_label": "grain spreader thrips",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 13,
+            "model_label": "rice shell pest",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 14,
+            "model_label": "grub",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 15,
+            "model_label": "mole cricket",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 16,
+            "model_label": "wireworm",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 17,
+            "model_label": "white margined moth",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 18,
+            "model_label": "black cutworm",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 19,
+            "model_label": "large cutworm",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 20,
+            "model_label": "yellow cutworm",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 21,
+            "model_label": "red spider",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 22,
+            "model_label": "corn borer",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 23,
+            "model_label": "army worm",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 24,
+            "model_label": "aphids",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 25,
+            "model_label": "Potosiabre vitarsis",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 26,
+            "model_label": "peach borer",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 27,
+            "model_label": "english grain aphid",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 28,
+            "model_label": "green bug",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 29,
+            "model_label": "bird cherry-oataphid",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 30,
+            "model_label": "wheat blossom midge",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 31,
+            "model_label": "penthaleus major",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 32,
+            "model_label": "longlegged spider mite",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 33,
+            "model_label": "wheat phloeothrips",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 34,
+            "model_label": "wheat sawfly",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 35,
+            "model_label": "cerodonta denticornis",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 36,
+            "model_label": "beet fly",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 37,
+            "model_label": "flea beetle",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 38,
+            "model_label": "cabbage army worm",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 39,
+            "model_label": "beet army worm",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 40,
+            "model_label": "Beet spot flies",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 41,
+            "model_label": "meadow moth",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 42,
+            "model_label": "beet weevil",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 43,
+            "model_label": "sericaorient alismots chulsky",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 44,
+            "model_label": "alfalfa weevil",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 45,
+            "model_label": "flax budworm",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 46,
+            "model_label": "alfalfa plant bug",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 47,
+            "model_label": "tarnished plant bug",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 48,
+            "model_label": "Locustoidea",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 49,
+            "model_label": "lytta polita",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 50,
+            "model_label": "legume blister beetle",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 51,
+            "model_label": "blister beetle",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 52,
+            "model_label": "therioaphis maculata Buckton",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 53,
+            "model_label": "odontothrips loti",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 54,
+            "model_label": "Thrips",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 55,
+            "model_label": "alfalfa seed chalcid",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 56,
+            "model_label": "Pieris canidia",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 57,
+            "model_label": "Apolygus lucorum",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 58,
+            "model_label": "Limacodidae",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 59,
+            "model_label": "Viteus vitifoliae",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 60,
+            "model_label": "Colomerus vitis",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 61,
+            "model_label": "Brevipoalpus lewisi McGregor",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 62,
+            "model_label": "oides decempunctata",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 63,
+            "model_label": "Polyphagotars onemus latus",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 64,
+            "model_label": "Pseudococcus comstocki Kuwana",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 65,
+            "model_label": "parathrene regalis",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 66,
+            "model_label": "Ampelophaga",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 67,
+            "model_label": "Lycorma delicatula",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 68,
+            "model_label": "Xylotrechus",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 69,
+            "model_label": "Cicadella viridis",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 70,
+            "model_label": "Miridae",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 71,
+            "model_label": "Trialeurodes vaporariorum",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 72,
+            "model_label": "Erythroneura apicalis",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 73,
+            "model_label": "Papilio xuthus",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 74,
+            "model_label": "Panonchus citri McGregor",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 75,
+            "model_label": "Phyllocoptes oleiverus ashmead",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 76,
+            "model_label": "Icerya purchasi Maskell",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 77,
+            "model_label": "Unaspis yanonensis",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 78,
+            "model_label": "Ceroplastes rubens",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 79,
+            "model_label": "Chrysomphalus aonidum",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 80,
+            "model_label": "Parlatoria zizyphus Lucus",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 81,
+            "model_label": "Nipaecoccus vastalor",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 82,
+            "model_label": "Aleurocanthus spiniferus",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 83,
+            "model_label": "Tetradacus c Bactrocera minax",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 84,
+            "model_label": "Dacus dorsalis(Hendel)",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 85,
+            "model_label": "Bactrocera tsuneonis",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 86,
+            "model_label": "Prodenia litura",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 87,
+            "model_label": "Adristyrannus",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 88,
+            "model_label": "Phyllocnistis citrella Stainton",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 89,
+            "model_label": "Toxoptera citricidus",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 90,
+            "model_label": "Toxoptera aurantii",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 91,
+            "model_label": "Aphis citricola Vander Goot",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 92,
+            "model_label": "Scirtothrips dorsalis Hood",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 93,
+            "model_label": "Dasineura sp",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 94,
+            "model_label": "Lawana imitata Melichar",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 95,
+            "model_label": "Salurnis marginella Guerr",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 96,
+            "model_label": "Deporaus marginatus Pascoe",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 97,
+            "model_label": "Chlumetia transversa",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 98,
+            "model_label": "Mango flat beak leafhopper",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 99,
+            "model_label": "Rhytidodera bowrinii white",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 100,
+            "model_label": "Sternochetus frigidus",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        },
+        {
+            "class_id": 101,
+            "model_label": "Cicadellidae",
+            "crop": null,
+            "medicine_recommendations": [],
+            "source": null,
+            "verification_status": "not_verified",
+            "officer_approval_required": true,
+            "source_status": "not_added_yet"
+        }
+    ],
+    "_README": {
+        "purpose": "AgriSense pest medicine recommendation reference.",
+        "current_coverage": "Currently, medicine recommendations are added only for selected rice pests explicitly supported by the official NIPHM Rice IPM Package.",
+        "future_scope": "Other pest classes, including potato and tomato pests, will be added later after exact crop/pest/source verification.",
+        "important": "No dosage is stored. Recommendations are informational and require extension-officer verification before farmer delivery.",
+        "source_note": "Every populated rice recommendation links to the official NIPHM Integrated Pest Management Package for Rice.",
+        "model_class_count": 102
+    }
+}
